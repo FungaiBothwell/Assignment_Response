@@ -1,0 +1,13 @@
+1.Added static on Mobile Number
+2.Added the logging dependency on Intelligent Network.api
+3.Added String Utils dependency in pom file of Intelligent Network api
+4.Removed @PreInsert annotation ,added @Prepersist in Subscriber Request.java line 43
+5.Removed the unrequired elements full stop line 16-17  of PartnerCodeValidatorImp.java
+6.Remove update and Prepersist and use save in EnquiriesServiceImp.java
+7.Put save in Credit ServiceImp.java
+8.Added dependency on module Intelligent api.
+10.Added Junit dependency on ElectronicPayment.api
+11.Added maven jackson dependency on EpayResource.java
+12.Updated Maven dependencies for Maven plugins errors to resolve.
+13.Remove Log4j dependency in Intelligent network.api
+14.NOTE THAT I MANAGED TO REMOVE BUGS , TRY TO RUN UNIT TEST USING MOCKITO BUT ENCOUNTERED CHALLENGES.
